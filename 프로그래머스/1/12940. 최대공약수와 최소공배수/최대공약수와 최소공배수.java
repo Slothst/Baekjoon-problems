@@ -1,9 +1,9 @@
 class Solution {
     public int[] solution(int n, int m) {
-        return new int[]{gdc(n, m), lcm(n, m)};
+        return new int[]{gcd(n, m), lcm(n, m)};
     }
 
-    public static int gdc(int n, int m) {
+    public static int gcd(int n, int m) {
         if (n < m) {
             int tmp = n;
             n = m;
@@ -18,6 +18,6 @@ class Solution {
     }
 
     public static int lcm(int n, int m) {
-        return n * m / gdc(n, m);
+        return n * m / gcd(n, m);
     }
 }
