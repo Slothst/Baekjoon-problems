@@ -10,10 +10,7 @@ class Solution {
             }
             sb.append(String.valueOf(i).repeat(Math.max(0, food[i] / 2)));
         }
-        String[] split = sb.toString().split("");
-        Arrays.sort(split, Comparator.reverseOrder());
-        sb.append("0");
-        sb.append(String.join("", split));
-        return sb.toString();
+        String answer = sb + "0";
+        return answer + sb.reverse();
     }
 }
