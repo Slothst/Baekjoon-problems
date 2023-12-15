@@ -7,8 +7,7 @@ func solution(_ n:Int, _ control:String) -> Int {
         case "w": N += 1
         case "s": N -= 1
         case "d": N += 10
-        case "a": N -= 10
-        default: N += 0
+        default: N -= 10
         }    
     }
     return N
