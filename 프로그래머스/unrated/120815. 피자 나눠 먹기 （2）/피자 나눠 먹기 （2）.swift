@@ -1,13 +1,6 @@
 import Foundation
 
 func solution(_ n:Int) -> Int {
-    var result = 1
-    var pizza = 6
-    while true {
-        if pizza % n == 0 {
-            return result
-        }
-        pizza += 6
-        result += 1
-    }
+    let div: [Int] = [6, 3, 2, 1].filter { n % $0 == 0 }
+    return (n / div[0])
 }
