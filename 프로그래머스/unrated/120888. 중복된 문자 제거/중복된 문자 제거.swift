@@ -4,7 +4,7 @@ func solution(_ my_string:String) -> String {
     var result = [String]()
 
     my_string.forEach {
-        if result.contains(String($0)) == false {
+        if !result.contains(String($0)) {
             result.append(String($0))
         }
     }
