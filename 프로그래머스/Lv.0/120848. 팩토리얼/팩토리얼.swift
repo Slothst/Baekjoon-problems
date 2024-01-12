@@ -7,6 +7,5 @@ func solution(_ n:Int) -> Int {
         count += 1
         n /= count
     }
-    count -= 1
-    return count
+    return count - 1
 }
