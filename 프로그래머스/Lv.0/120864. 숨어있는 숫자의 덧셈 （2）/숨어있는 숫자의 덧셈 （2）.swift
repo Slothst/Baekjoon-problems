@@ -1,23 +1,17 @@
 import Foundation
 
 func solution(_ my_string:String) -> Int {    
-    var arr = Array(my_string)
-    var result = [String]()
+    var result = 0
     var str = ""
 
-    for i in arr {
-        if i.isNumber {
-            str += String(i)
-        }
-        if !i.isNumber && str != "" {
-            result.append(str)
+    for s in my_string {
+        if s.isNumber {
+            str += String(s)
+        } else {
+            result += Int(str) ?? 0
             str = ""
-        } 
+        }
     }
-    
-    if let str = Int(str) {
-        result.append(String(str))
-    }
-
-    return result.map { Int($0)! }.reduce(0, +) 
+    result += Int(str) ?? 0
+    return result
 }
