@@ -1,7 +1,3 @@
-func solution(_ x:Int, _ n:Int) -> [Int] {
-    var arr: [Int] = []
-    for i in 1...n {
-        arr.append(x * i)
-    }
-    return arr
+func solution(_ x:Int, _ n:Int) -> [Int64] {
+    return Array(1...n).map { Int64(x * $0) }
 }
