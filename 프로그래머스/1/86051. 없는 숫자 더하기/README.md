@@ -1,10 +1,10 @@
 # [level 1] 없는 숫자 더하기 - 86051 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/86051) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/86051?language=swift) 
 
 ### 성능 요약
 
-메모리: 81 MB, 시간: 20.79 ms
+메모리: 16.2 MB, 시간: 0.05 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2023년 10월 2일 13:51:31
+2024년 04월 06일 15:15:02
 
 ### 문제 설명
 
