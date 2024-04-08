@@ -1,10 +1,10 @@
 # [level 1] 행렬의 덧셈 - 12950 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12950) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12950?language=swift) 
 
 ### 성능 요약
 
-메모리: 115 MB, 시간: 7.28 ms
+메모리: 62.6 MB, 시간: 13.34 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2023년 10월 3일 13:59:34
+2024년 04월 08일 16:18:40
 
 ### 문제 설명
 
