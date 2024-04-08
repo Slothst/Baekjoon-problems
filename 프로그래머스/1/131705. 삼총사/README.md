@@ -1,10 +1,10 @@
 # [level 1] 삼총사 - 131705 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/131705) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/131705?language=swift) 
 
 ### 성능 요약
 
-메모리: 75.9 MB, 시간: 0.02 ms
+메모리: 16.6 MB, 시간: 0.02 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2023년 10월 3일 17:33:41
+2024년 04월 08일 21:39:14
 
 ### 문제 설명
 
