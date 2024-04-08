@@ -1,10 +1,10 @@
 # [level 1] 숫자 문자열과 영단어 - 81301 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/81301) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/81301?language=swift) 
 
 ### 성능 요약
 
-메모리: 72 MB, 시간: 0.34 ms
+메모리: 16.5 MB, 시간: 0.14 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2023년 10월 5일 17:51:41
+2024년 04월 08일 23:05:31
 
 ### 문제 설명
 
