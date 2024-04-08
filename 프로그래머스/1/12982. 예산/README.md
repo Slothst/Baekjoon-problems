@@ -1,10 +1,10 @@
 # [level 1] 예산 - 12982 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12982) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12982?language=swift) 
 
 ### 성능 요약
 
-메모리: 74.1 MB, 시간: 0.39 ms
+메모리: 16.6 MB, 시간: 0.19 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2023년 10월 3일 15:43:57
+2024년 04월 08일 17:57:56
 
 ### 문제 설명
 
