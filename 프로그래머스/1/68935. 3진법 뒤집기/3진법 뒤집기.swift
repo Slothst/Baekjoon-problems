@@ -8,5 +8,5 @@ func solution(_ n:Int) -> Int {
         str += String(n % 3)
         n /= 3
     }
-    return Int((str), radix: 3) ?? 0
+    return Int((str), radix: 3)!
 }
