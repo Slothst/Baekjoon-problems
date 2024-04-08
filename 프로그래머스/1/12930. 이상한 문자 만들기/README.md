@@ -1,10 +1,10 @@
 # [level 1] 이상한 문자 만들기 - 12930 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12930) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12930?language=swift) 
 
 ### 성능 요약
 
-메모리: 74.8 MB, 시간: 0.05 ms
+메모리: 16.3 MB, 시간: 0.22 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2023년 10월 3일 16:59:46
+2024년 04월 08일 21:29:19
 
 ### 문제 설명
 
