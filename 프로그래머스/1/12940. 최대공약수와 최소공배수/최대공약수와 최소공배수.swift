@@ -1,23 +1,12 @@
 func solution(_ n:Int, _ m:Int) -> [Int] {
-    func gcd(n: Int, m: Int) -> Int {
-        var n = n
-        var m = m
-        if (n < m) {
-            var tmp = n;
-            n = m;
-            m = tmp;
-        }
-        while (m != 0) {
-            var r = n % m;
-            n = m;
-            m = r;
-        }
-        return n;
+    func gcd(_ n: Int, _ m: Int) -> Int {
+        var mod: Int = n % m
+        return 0 == mod ? min(n, m) : gcd(m, mod)
     }
 
-    func lcm(n: Int, m: Int) -> Int {
-        return n * m / gcd(n: n, m: m);
+    func lcm(_ n: Int, _ m: Int) -> Int {
+        return n * m / gcd(n, m);
     }
     
-    return [gcd(n: n, m: m), lcm(n: n, m: m)]
+    return [gcd(n, m), lcm(n, m)]
 }
