@@ -1,13 +1,9 @@
 func solution(_ s:String, _ n:Int) -> String {
-    var result = ""
-    for str in Array(s) {
-        if str.isLowercase {
-            result += String(UnicodeScalar((Int(UnicodeScalar(String(str))!.value) - Int(UnicodeScalar("a").value) + n) % 26 + Int(UnicodeScalar("a").value))!)
-        } else if str.isUppercase {
-            result += String(UnicodeScalar((Int(UnicodeScalar(String(str))!.value) - Int(UnicodeScalar("A").value) + n) % 26 + Int(UnicodeScalar("A").value))!)
-        } else {
-            result += String(str)
-        }
-    }
-    return result
+    let alphabets = "abcdefghijklmnopqrstuvwxyz".map { $0 }
+    
+    return String(s.map {
+        guard let index = alphabets.firstIndex(of: Character($0.lowercased())) else { return $0 }
+        let letter = alphabets[(index + n) % alphabets.count]
+        return $0.isUppercase ? Character(letter.uppercased()) : letter
+    })
 }
