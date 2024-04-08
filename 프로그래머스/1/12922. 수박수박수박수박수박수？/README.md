@@ -1,10 +1,10 @@
 # [level 1] 수박수박수박수박수박수? - 12922 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12922) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12922?language=swift) 
 
 ### 성능 요약
 
-메모리: 77.6 MB, 시간: 0.07 ms
+메모리: 16.2 MB, 시간: 0.01 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2023년 10월 2일 14:31:20
+2024년 04월 08일 14:38:21
 
 ### 문제 설명
 
