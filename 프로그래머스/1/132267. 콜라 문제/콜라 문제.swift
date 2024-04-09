@@ -1,22 +1,13 @@
 import Foundation
 
 func solution(_ a:Int, _ b:Int, _ n:Int) -> Int {
-    var a = a
-    var n = n
-    var r = 0
-    var sum = 0
-
-    while n >= 1 {
-        r = n % a
-        n = n / a * b
-        sum += n
-        if r > 0 {
-            n += r
-        }
-        if n < a {
-            break
-        }
+    var cokeCount = n
+    var receivedCount = 0
+    
+    while cokeCount >= a {
+        receivedCount += (cokeCount / a * b)
+        cokeCount = (cokeCount / a * b) + (cokeCount % a)
     }
     
-    return sum
+    return receivedCount
 }
