@@ -3,11 +3,11 @@ func solution(_ a:Int, _ b:Int) -> String {
     let dates = ["FRI", "SAT", "SUN", "MON", "TUE", "WED", "THU"]
     
     var date = 0
-    for i in 0..<a {
+    for i in 0..<a - 1 {
         date += days[i]
     }
     
-    date -= days[a - 1] - b + 1
+    date += b - 1
     
     return dates[date % 7]
 }
