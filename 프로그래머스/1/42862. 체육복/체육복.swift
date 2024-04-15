@@ -1,8 +1,8 @@
 import Foundation
 
 func solution(_ n:Int, _ lost:[Int], _ reserve:[Int]) -> Int {
-    var lost = lost
-    var reserve = reserve
+    var lost = lost.sorted(by: <)
+    var reserve = reserve.sorted(by: <)
     var dup = lost.filter { reserve.contains($0) }
 
     for d in dup {
@@ -11,9 +11,6 @@ func solution(_ n:Int, _ lost:[Int], _ reserve:[Int]) -> Int {
     }
 
     var count = n - lost.count
-    
-    lost = lost.sorted(by: <)
-    reserve = reserve.sorted(by: <)
 
     for num in lost {
         if reserve.isEmpty {
